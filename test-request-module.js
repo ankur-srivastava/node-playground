@@ -19,7 +19,7 @@ function doRequest(url) {
   
   async function main() {
     const videoId = 'Yl6ggYwxL3c';
-    const api_key = 'AIzaSyCFvmAhx8dW4fO5NHjkyZapokZM-D2xAXk';
+    const api_key = '**';
     const url = 'https://www.googleapis.com/youtube/v3/videos?part=snippet&id='+videoId+'&key='+api_key;
     console.log('Call doReq from Main');  
     let res = await doRequest(url);
